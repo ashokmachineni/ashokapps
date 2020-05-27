@@ -1,0 +1,15 @@
+.projects {
+    width: 60%;
+    margin: auto;
+    min-height: 50vh;
+    @include flex(space-between, center, row);
+    text-align: center;
+    flex-wrap: wrap;
+    h2 {
+        margin: 5rem;
+    }
+}
+
+.ashokiptv {
+    flex: 1 1 40rem;
+}
